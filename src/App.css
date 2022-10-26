@@ -3,3 +3,13 @@
   border-radius: 5px;
   padding: 20px;
 }
+header .banner-text {
+  width: 100%;
+  background-color: #1a4361b8;
+  padding: 10px;
+  backdrop-filter: blur(10px);
+  border: #afd154 10px solid;
+}
+h2.verde span {
+  color: #afd154;
+}

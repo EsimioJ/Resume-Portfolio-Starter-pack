@@ -67,13 +67,15 @@ const Header = ({ data }) => {
           <h1 className="responsive-headline">
             {name ? `Ciao, I'm ${name}!` : null}
           </h1>
-          <h2>
+          <h2 className="verde">
             <TypeWriter typing={1}>
               {description ? ` ${description}` : null}
             </TypeWriter>
           </h2>
           <h3>
-            <span>{occupation}</span>.
+            <a href="https://www.mapomondo.com" target="_blank">
+              <span>www.{occupation}</span>
+            </a>
           </h3>
           <h3>Based in {city}.</h3>
           <hr />

@@ -1,10 +1,10 @@
 {
   "main": {
-    "name": "APO",
+    "name": "Jacopo Riccioni",
     "occupation": "mapomondo.com",
     "description": "Web, 3D and XR Developer",
     "image": "profilepic.jpg",
-    "bio": "Hi there! I am Sonny! You might also know me as PAPA React. I've been coding for over 10 years now. As a Full Stack developer I've worked both with startups and large corporations to help build & scale their companies. Along the journey I realised my passion existed in helping others excel and pursue their dreams as upcoming developers. With this passion, I have now trained thousand's of developers across the globe. Through live coaching sessions on Youtube, I have accumulated several MILLION views demonstrating how to apply developer skills in a range of cool builds and challenges. I deliver REAL VALUE by teaching REAL WORLD projects to help students enter the world of web development. You’ll get hands-on experience and learn the skills that are required to succeed in the real-world in this community.",
+    "bio": "Hi there! I am Apo! web developer since 1998, I love to stay up to date with technologies. Lately I have been studying metaveres, Ureal Engine, Blender, threeJS, React Native, Tailwind, Mapbox and much more :-)",
     "contactmessage": "Let me know how I can contribute to your project",
     "email": "jacopo.riccioni@gmail.com",
     "phone": "+39 3288356109",
@@ -65,45 +65,45 @@
     "skills": [
       {
         "name": "ReactJs",
-        "level": "100%"
+        "level": "75%"
       },
       {
-        "name": "Python",
-        "level": "85%"
+        "name": "Unreal Engine",
+        "level": "80%"
       },
       {
-        "name": "Git",
-        "level": "70%"
+        "name": "ThreeJS",
+        "level": "60%"
       },
       {
         "name": "JavaScript",
-        "level": "99%"
+        "level": "95%"
       },
       {
         "name": "Web Development",
-        "level": "95%"
+        "level": "98%"
       }
     ]
   },
   "portfolio": {
     "projects": [
       {
-        "title": "Snapchat Clone (React JS)",
-        "category": "",
+        "title": "Summer of Unreal (2022)",
+        "category": "Video",
         "image": "snapchat.jpg",
-        "url": "https://youtu.be/1kGISk5ft2w"
+        "url": "https://www.youtube.com/watch?v=pmrMgq633T8"
       },
       {
-        "title": "Gmail Clone (React JS)",
+        "title": "Vale Drink Collection (React JS)",
         "category": "",
         "image": "gmail.jpg",
-        "url": "https://youtu.be/b7nrXjS6Dqs"
+        "url": "https://mapo-vdc.netlify.app/"
       },
       {
-        "title": "LinkedIn Clone (React JS)",
+        "title": "Mapo Sound (Spotify Clone)",
         "category": "",
         "image": "linkedin.jpg",
-        "url": "https://youtu.be/QaYts9sPmcY"
+        "url": "https://elaborate-druid-630db6.netlify.app/"
       }
     ]
   },
