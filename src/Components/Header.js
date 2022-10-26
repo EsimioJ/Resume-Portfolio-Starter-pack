@@ -10,7 +10,7 @@ const Header = ({ data }) => {
     var networks = data.social.map(function (network) {
       return (
         <li key={network.name}>
-          <a href={network.url}>
+          <a href={network.url} target="_blank" rel="noreferrer">
             <i className={network.className}></i>
           </a>
         </li>
@@ -65,11 +65,17 @@ const Header = ({ data }) => {
       <div className="row banner">
         <div className="banner-text">
           <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+            {name ? `Ciao, I'm ${name}!` : null}
           </h1>
+          <h2>
+            <TypeWriter typing={1}>
+              {description ? ` ${description}` : null}
+            </TypeWriter>
+          </h2>
           <h3>
-            Based in {city}. <span>{occupation}</span>. {description}.
+            <span>{occupation}</span>.
           </h3>
+          <h3>Based in {city}.</h3>
           <hr />
           <ul className="social">{networks}</ul>
         </div>
